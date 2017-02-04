@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 01/02/2017, 04:02:40 PM
-    Author     : Abelardo
+    Author     : CONIA
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,15 +13,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Congreso Nacional de Ingeniería Agrícola 2017 - Perú">
+    <meta name="description" content="Congreso Nacional de Ingenieria Agricola">
     <meta name="keywords" content="Congreso, Conia, Nacional, Ingenieria, Agricola, 2017, Peru, Unasam, Huaraz, Ancash">
-    <meta name="author" content="CONIA 2017"> 
+    <meta name="author" content="CONIA"> 
     <meta property="og:site_name" content="CONIA 2017" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://conia2017.com/" />
     <meta property="og:title" content="CONIA 2017" />
-    <meta property="og:description" content="Congreso Nacional de Ingeniería Agrícola 2017 - Perú" />
-    <title>CONIA 2017</title>
+    <meta property="og:description" content="Congreso Nacional de Ingeniería Agrícola" />
+    <title>:: XIII CONIA PERU 2017: HUARAZ ANCASH ::</title>
     
     <!-- Bootstrap Core CSS -->
     <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -64,27 +64,27 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Invitación</a>
+                 <!--   <li>
+                        <a class="page-scroll" href="#temario">Temario</a>
+                    </li>-->
+                        <li> 
+                        <a class="page-scroll" href="#portfolio">Temario</a>
                     </li>
-                        <li>
+                    <li> 
                         <a class="page-scroll" href="#conferencias">Conferencias</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Noticias</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Programa</a>
                     </li>
-                    <li>
+                <!--    <li>
                         <a class="page-scroll" href="#team">Sede&amp;Turismo</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll" href="#ubicacion">Ubicación</a>
                     </li>
-                    <li>
+               <!--     <li>
                         <a class="page-scroll" href="#contact">Contacto</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -97,35 +97,167 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">¡Bienvenidos!</div>
-                <div class="intro-heading"> XIII Congreso Nacional  de  Ingeniería Agrícola <br> 2017</div>
-                <a href="/inscripcion.html" class="page-scroll btn btn-xl">¡Inscribete Aquí!</a>
+                <div class="intro-heading"> XIII Congreso Nacional  de  Ingeniería Agrícola <br> 2017   Perú</div>
+                <div class="intro-lead-in">Del 17 al 20 de octubre del 2017</div>
+                <a href="Inscripción" class="page-scroll btn btn-xl">¡Inscribete Aquí!</a>
             </div>
         </div>
     </header>
 
     <!-- Services Section -->
-    <section id="services">
+   <section id="portfolio" class="portfolio-caption">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Invitación</h2>
-                    <h3 class="section-subheading text-muted">BIENVENIDOS AL XIII CONGRESO NACIONAL DE INGENIERÍA AGRÍCOLA</h3>
+                    <h2 class="section-heading">Temario</h2>
+                    <h3 class="section-subheading text-muted">Temario del XIII Congreso de Ingeniería Agrícola. ¡Haga Click sobre las Imágenes! </h3>
                 </div>
             </div>
-            <div class="full-page">
-                <div class="full-page">
-<p>En construcción.</p>
-<p>En construcción.</p>
-<p>En construcción. </p>
-<p>En construcción.</p>
-<p><strong>Comité Organizador<br />
-XIII Congreso Nacional de Ingeniería Agrícola</strong></p>
-</div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="resources/img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Recursos Hídricos</h4>
+                        <p class="text-muted">El agua es esencial ...</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="resources/img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Planificación, Gestión ...</h4>
+                        <p class="text-muted">Las construcciones ...</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="resources/img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Mecanización Agrícola y ...</h4>
+                        <p class="text-muted">Energía que utiliza los recursos ...</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="resources/img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Software para la Ingeniería Agrí...</h4>
+                        <p class="text-muted">Distintas TIC's aplicables ...</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="resources/img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Cambio Climático y ...</h4>
+                        <p class="text-muted">Glaciares, gestión de ...</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="resources/img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Formación Profesional</h4>
+                        <p class="text-muted">Investigación, innovación ...</p>
+                    </div>
+                </div>
             </div>
         </div>
+    
+                <!-- 
+                    <h5>Recursos Hídricos</h5>
+                     <p>   -Hidrología Superficial y Subterránea <br>
+                        -Hidráulica<br>
+                        -Hidráulica Fluvial<br>
+                        -Riesgos y Drenaje<br>
+                        -Estructuras Hidráulicas<br>
+                        -Simulación Hidráulica<br>
+                        -Valor Económico del Agua<br>
+                        -Siembre y Cosecha del Agua<br>
+                    </p> 
+                    <h5>PLANIFICACIÓN, GESTIÓN TERRITORIAL Y CONSTRUCCIONES RURALES</h5>
+                    <p>-Construcciones Rurales<br>
+                        -Bioconstrucciones<br>
+                        -Construcciones Agropecuarias y Agroinsdustriales<br>
+                        -Viviendas Ecológicas<br>
+                        -Diseño Rural<br>
+                        -Zonificación Económica y Ecológica<br>
+                        -Planeamiento Urbano y Planeamiento Rural<br>
+                        -Plan de Desarrollo Social y Económico<br>
+                        -Manejo y Conservación del Agua <br>  
+                    </p>
+                    <h5>Mecanización Agrícola y Energía Renovable</h5>
+                    <p>-	-Maquinaria para la producción agrícola<br>
+                        -Maquinaria para la construcción<br>
+                        -Dimensionamiento de parque de maquinaria<br>
+                        -Administración y gestión de maquinaria agrícola<br>
+                        -Rendimiento económico de máquinas agrícolas<br>
+                        -Agricultura de precisión<br>
+                        -Tracción animal<br>
+                        -Técnicas para la mecanización agrícola<br>
+                        -Tendencias en conectividad en internet para máquinas agrícolas<br>
+                        -Uso y eficiencia de fuentes de energía renovables<br>
+        </p>
+            <h5>SOFTWARE PARA LA INGENIERÍA AGRÍCOLA</h5>
+                                <p>-Programas específicos para la ingeniería agrícola
+            </p>
+            <h5>CAMBIO CLIMÁTICO Y GESTIÓN DE RIESGOS</h5>
+            <p>-Glaciares<br>-Gestión de Riesgos
+            </p>
+            <h5>FORMACIÓN PROFESIONAL</h5>
+            <p>-Investigación, innovación y desarrollo<br>
+                -Macro y micro diseño curricular<br>
+                -Estudio de la demanda social y el mercado ocupacional<br>
+                -Perfil de ingreso y perfil de egreso<br>
+
+        </p>
+<p><strong>Comité Organizador<br />
+XIII Congreso Nacional de Ingeniería Agrícola</strong></p>
+
+            </div> -->
+            
     </section>
     <!-- HOLA -->
-    <section id="conferencias">
+    
+   
+    <section id="conferencias" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -165,6 +297,7 @@ investigación.</h3>
     </section>
 
     <!-- Portfolio Grid Section -->
+    <!--
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -261,14 +394,15 @@ investigación.</h3>
             </div>
         </div>
     </section>
-
+-->
     <!-- About Section -->
+    
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Programa</h2>
-                    <h3 class="section-subheading text-muted">Del 17 al 20 de octubre del 2017.</h3>
+                    <h3 class="section-subheading text-muted"> Congreso Nacional de Ingeniería Agrícola <br> Del 17 al 20 de octubre del 2017.</h3>
                 </div>
             </div>
             <div class="row">
@@ -344,6 +478,7 @@ investigación.</h3>
     </section>
 
     <!-- Team Section -->
+    <!--
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -406,8 +541,9 @@ investigación.</h3>
             </div>
         </div>
     </section>
-
+-->
     <!-- Clients Aside -->
+    <!--
     <aside class="clients">
         <div class="container">
             <div class="row">
@@ -433,7 +569,7 @@ investigación.</h3>
                 </div>
             </div>
         </div>
-    </aside>
+    </aside> -->
         <!-- Ubicacion Section -->
      <section id="ubicacion">
         <div class="container">
@@ -450,7 +586,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                     <br>    &nbsp                
                 <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1130.7740596214257!2d-77.52628843362783!3d-9.516817387693132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-9.516404!2d-77.5262614!4m5!1s0x91a90d72ff290387%3A0xf366faa38220b74b!2sCiudad+Universitaria+-+Universidad+Nacional+Santiago+Antunez+de+Mayolo%2C+Huaraz!3m2!1d-9.517353!2d-77.5250379!5e1!3m2!1ses!2spe!4v1484236422116" width="560" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-sm-4">
-                    <div> <h3 class="f-w-900 m-b-md"> <a href="http://www.unasam.edu.pe/">UNIVERSIDAD NACIONAL SANTIAGO ANTUNEZ DE MAYOLO</a></h3>                  
+                    <div> <h3 class="f-w-900 m-b-md"> <a target="_blank" href="http://www.unasam.edu.pe/">UNIVERSIDAD NACIONAL SANTIAGO ANTUNEZ DE MAYOLO</a></h3>                  
                      <p class="text-justify">
                      En 1899, el senador por Áncash José Santos Morán, en su cámara presenta el primer proyecto de creación de una universidad en Áncash. Ante el clamor del pueblo ancashino reunido en Huaraz el 14 de junio de 1976, el General Francisco Morales Bermúdez Cerruti, el Presidente de la República, prometió la creación de la Universidad de Ancash. En efecto, el 24 de mayo de 1977 se promulgó el Decreto Ley Nº 21856 que crea la Universidad Nacional de Ancash Santiago Antúnez de Mayolo. Un año después, en cumplimiento del Decreto Ley, un 10 de junio de 1977, se nombró la Comisión Organizadora, presidida por el Dr. César Carranza Saravia. Las actividades académicas se iniciaron el 22 de agosto de 1978 con 150 estudiantes.</p>                    
                     </div>
@@ -459,6 +595,8 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                      </div>
              </section>
     <!-- Contact Section -->
+    
+    <!--
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -501,7 +639,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <footer>
         <div class="container">
@@ -511,11 +649,11 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li><a  target="_blank" href="https://www.instagram.com/conia2017peru/"><i class="fa fa-instagram"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a target="_blank" href="https://www.facebook.com/CONIA2017"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a target="_blank" href="https://twitter.com/Conia2017"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -533,7 +671,41 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
-
+    <!-- Modal Temario -->
+    <div class="portfolio-modal modal fade" id="temarioRecursosHidricos" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="resources/img/portfolio/roundicons-free.png" alt="">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>
+                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Date: July 2014</li>
+                                    <li>Client: Round Icons</li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -549,7 +721,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
+                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="resources/img/portfolio/roundicons-free.png" alt="">
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
@@ -583,7 +755,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
+                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="resources/img/portfolio/startup-framework-preview.png" alt="">
                                 <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
@@ -612,7 +784,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
+                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="resources/img/portfolio/treehouse-preview.png" alt="">
                                 <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
@@ -641,7 +813,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
+                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="resources/img/portfolio/golden-preview.png" alt="">
                                 <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
@@ -670,7 +842,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
+                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="resources/img/portfolio/escape-preview.png" alt="">
                                 <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
@@ -699,7 +871,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
+                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="resources/img/portfolio/dreams-preview.png" alt="">
                                 <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
