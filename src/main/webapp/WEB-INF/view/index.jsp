@@ -121,7 +121,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="resources/img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="resources/img/portfolio/recursosHidricos.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Recursos Hídricos</h4>
@@ -135,7 +135,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="resources/img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="resources/img/portfolio/construcciones.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Planificación, Gestión ...</h4>
@@ -149,7 +149,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="resources/img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="resources/img/portfolio/agricola.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Mecanización Agrícola y ...</h4>
@@ -163,7 +163,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="resources/img/portfolio/golden.png" class="img-responsive" alt="">
+                        <img src="resources/img/portfolio/software.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Software para la Ingeniería Agrí...</h4>
@@ -177,7 +177,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="resources/img/portfolio/escape.png" class="img-responsive" alt="">
+                        <img src="resources/img/portfolio/climatico.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Cambio Climático y ...</h4>
@@ -191,7 +191,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="resources/img/portfolio/dreams.png" class="img-responsive" alt="">
+                        <img src="resources/img/portfolio/profesional.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Formación Profesional</h4>
@@ -697,7 +697,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                                     <li>Client: Round Icons</li>
                                     <li>Category: Graphic Design</li>
                                 </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Capítulo Project</button>
                             </div>
                         </div>
                     </div>
@@ -721,18 +721,27 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="resources/img/portfolio/roundicons-free.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <p>
+                                <h2>Recursos Hídricos</h2>
+                                <p class="item-intro text-muted">Los temas que se abarcarán en este capítulo son:</p>
+                      <!--          <img class="img-responsive img-centered" src="resources/img/portfolio/roundicons-free.png" alt=""> -->
+                                  <div class="list-group">
+                                    <a class="list-group-item">Hidrología Superficial y Subterránea</a>
+                                    <a class="list-group-item">Hidráulica</a>
+                                    <a class="list-group-item">Hidráulica Fluvial</a>
+                                    <a class="list-group-item">Riesgos y Drenaje</a>
+                                    <a class="list-group-item">Estructuras Hidrálicas</a>
+                                    <a class="list-group-item">Simulación Hidráulica</a>
+                                    <a class="list-group-item">Valor Económico del Agua</a>
+                                    <a class="list-group-item">Siembra y Cosecha del Agua</a>
+                                  </div>
+                                <!--
                                     <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
+                             -->   <ul class="list-inline">
+                                    <li>Fecha: Octubre del 2017</li>
+                                    <li>Sede: UNASAM</li>
+                                    <li>CONIA 2017</li>
                                 </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Capítulo </button>
                             </div>
                         </div>
                     </div>
@@ -755,12 +764,28 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="resources/img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                                <h3>PLANIFICACIÓN, GESTIÓN TERRITORIAL Y CONSTRUCCIONES RURALES</h3>
+                                <p class="item-intro text-muted">Los temas que se abarcarán en este capítulo son:</p>
+                       <!--         <img class="img-responsive img-centered" src="resources/img/portfolio/startup-framework-preview.png" alt=""> -->
+                        <div class="list-group">
+                                    <a class="list-group-item">Construcciones Rurales</a>
+                                    <a class="list-group-item">BioConstrucciones</a>
+                                    <a class="list-group-item">Construcciones Agropecuarias y Agroindustriales</a>
+                                    <a class="list-group-item">Viviendas Ecológicas</a>
+                                    <a class="list-group-item">Diseño Rural</a>
+                                    <a class="list-group-item">Zonificación Económica y Ecológica</a>
+                                    <a class="list-group-item">Planeamiento Urbano y Planeamiento Rural</a>
+                                    <a class="list-group-item">Plan de Desarrollo Social y Económico</a>
+                                    <a class="list-group-item">Manejo y Conservación del Agua</a>
+                                  </div>
+                <ul class="list-inline">
+                                    <li>Fecha: Octubre del 2017</li>
+                                    <li>Sede: UNASAM</li>
+                                    <li>CONIA 2017</li>
+                                </ul>
+                       <!--       <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
                                 <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    -->            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Capítulo</button>
                             </div>
                         </div>
                     </div>
@@ -784,12 +809,29 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="resources/img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>MECANIZACIÓN AGRICOLA Y ENERGÍA RENOVABLES</h2>
+                                <p class="item-intro text-muted">Los temas que se abarcarán en este capítulo son:</p>
+                           <div class="list-group">
+                                    <a class="list-group-item">Maquinaria para la Producción Agrícola</a>
+                                    <a class="list-group-item">Maquinaria para la Construcción</a>
+                                    <a class="list-group-item">Dimensionamiento de Parque de Maquinaria</a>
+                                    <a class="list-group-item">Administración y Gestión de Maquinaria Agrícola</a>
+                                    <a class="list-group-item">Rendimiento Económico de Maquinarias Agrícolas</a>
+                                    <a class="list-group-item">Agricultura de Precisión</a>
+                                    <a class="list-group-item">Tracción Animal</a>
+                                    <a class="list-group-item">Técnicas para la Mecanización Agrícola</a>
+                                    <a class="list-group-item">Tendencias en Conectividad de Internet para Máquinas Agrícolas</a>
+                                 <a class="list-group-item">Uso y Eficiencia de Fuentes de Energía Renovables</a>
+                                  </div>
+                                 <ul class="list-inline">
+                                    <li>Fecha: Octubre del 2017</li>
+                                    <li>Sede: UNASAM</li>
+                                    <li>CONIA 2017</li>
+                                </ul>
+                                <!--    <img class="img-responsive img-centered" src="resources/img/portfolio/treehouse-preview.png" alt=""> -->
+                             <!--   <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p> -->
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Capítulo</button>
                             </div>
                         </div>
                     </div>
@@ -813,12 +855,21 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="resources/img/portfolio/golden-preview.png" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                                <h2>Software para la ingeniería Agrícola</h2>
+                                <p class="item-intro text-muted">Los temas para el presente capítulo aún se están seleccionando ...</p>
+                         <!--       <img class="img-responsive img-centered" src="resources/img/portfolio/golden-preview.png" alt=""> -->
+                      <div class="list-group">
+                                    <a class="list-group-item">Programas Específicos para la Ingeniería Agrícola</a>
+                                  
+                                  </div>
+                                 <ul class="list-inline">
+                                    <li>Fecha: Octubre del 2017</li>
+                                    <li>Sede: UNASAM</li>
+                                    <li>CONIA 2017</li>
+                                </ul>
+                         <!--        <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
                                 <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            -->    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Capítulo</button>
                             </div>
                         </div>
                     </div>
@@ -842,12 +893,23 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="resources/img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                                <h2>Cambio Climático y Gestión de Riesgos</h2>
+                                <p class="item-intro text-muted">Los temas que se abarcarán en este capítulo son:</p>
+                         <!--       <img class="img-responsive img-centered" src="resources/img/portfolio/escape-preview.png" alt=""> -->
+                       
+                         <div class="list-group">
+                                    <a class="list-group-item">Glaciares</a>
+                                    <a class="list-group-item">Gestión de Riesgos</a>
+                                   
+                                  </div>   
+                          <ul class="list-inline">
+                                    <li>Fecha: Octubre del 2017</li>
+                                    <li>Sede: UNASAM</li>
+                                    <li>CONIA 2017</li>
+                                </ul>
+                         <!-- <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
                                 <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                              -->  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
                     </div>
@@ -871,12 +933,23 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Congreso Nacional de Ingeniería Agrícola</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="resources/img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                                <h2>Formación Profesional</h2>
+                                <p class="item-intro text-muted">Los temas que se abarcarán en este capítulo son:</p>
+                          <!--      <img class="img-responsive img-centered" src="resources/img/portfolio/dreams-preview.png" alt=""> -->
+                          <div class="list-group">
+                                    <a class="list-group-item">Investigación, Innvación y Desarollo</a>
+                                    <a class="list-group-item">Macro y Micro Diseño Curricular</a>
+                                   <a class="list-group-item">Estudio de la Demanda Social y el Mercado Ocupacional</a>
+                                   <a class="list-group-item">Perfil de Ingreso y Perfil de Egreso</a>
+                                  </div> 
+                          <ul class="list-inline">
+                                    <li>Fecha: Octubre del 2017</li>
+                                    <li>Sede: UNASAM</li>
+                                    <li>CONIA 2017</li>
+                                </ul>    
+                          <!--  <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
                                 <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                               --> <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
                     </div>
