@@ -21,7 +21,7 @@
     <meta property="og:url" content="http://conia2017.com/" />
     <meta property="og:title" content="CONIA 2017" />
     <meta property="og:description" content="Congreso Nacional de Ingeniería Agrícola" />
-    <title>:: XIII CONIA PERU 2017: HUARAZ ANCASH ::</title>
+    <title>Congreso Nacional de Ingeniería Agrícola</title>
     
     <!-- Bootstrap Core CSS -->
     <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
