@@ -6,7 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -21,33 +21,30 @@
     <meta property="og:url" content="http://conia2017.com/" />
     <meta property="og:title" content="CONIA 2017" />
     <meta property="og:description" content="Congreso Nacional de Ingeniería Agrícola" />
-    <title>Congreso Nacional de Ingeniería Agrícola</title>
+    <title> CONIA 2017 : XIII Congreso Nacional de Ingeniería Agrícola</title>
     
-    <!-- Bootstrap Core CSS -->
     <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
+
+  <link href="resources/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/Montserrat.css" rel="stylesheet" type="text/css">
+    <link href='resources/css/Kaushan.css' rel='stylesheet' type='text/css'>
+    <link href='resources/css/italic.css' rel='stylesheet' type='text/css'>
+    <link href='resources/css/Slab.css' rel='stylesheet' type='text/css'>
     <link href="resources/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="resources/css/Montserrat.css" rel="stylesheet" type="text/css">
     <link href='resources/css/Kaushan.css' rel='stylesheet' type='text/css'>
     <link href='resources/css/italic.css' rel='stylesheet' type='text/css'>
     <link href='resources/css/Slab.css' rel='stylesheet' type='text/css'>
-
     <!-- Theme CSS -->
     <link href="resources/css/agency.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link rel="icon" href="http://i.imgur.com/75P0fYa.png" />
 </head>
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
+    <!-- Navegación -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -57,16 +54,15 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">CONIA 2017</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                 <!--   <li>
-                        <a class="page-scroll" href="#temario">Temario</a>
-                    </li>-->
+                   <li>
+                        <a class="page-scroll" href="#invitacion">Invitación</a>
+                    </li>
                         <li> 
                         <a class="page-scroll" href="#portfolio">Temario</a>
                     </li>
@@ -74,7 +70,7 @@
                         <a class="page-scroll" href="#conferencias">Conferencias</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Programa</a>
+                        <a class="page-scroll" href="#programa">Programa</a>
                     </li>
                 <!--    <li>
                         <a class="page-scroll" href="#team">Sede&amp;Turismo</a>
@@ -103,9 +99,21 @@
             </div>
         </div>
     </header>
-
-    <!-- Services Section -->
-   <section id="portfolio" class="portfolio-caption">
+    <!-- Invitación-CONIA-RESUMEN -->
+    <section id="invitacion">
+    <div class="container">
+  
+  <div class="full-page"><p>La Facultad de Ciencias Agrarias de la UNASAM en conjunto con la Universidad Nacional Santiago Antúnez de Mayolo (UNASAM) tienen la satisfacción de invitarlos al XIII Congreso Nacional de Ingeniería Agrícola a desarrollarse en la ciudad de Huaraz, en octubre del 2017.</p>
+<p>En esta oportunidad, el Congreso pone especial énfasis en los siguientes temas: recursos hídricos; planificación, gestión territorial y construcciones rurales; mecanización agrícola y energía renovable; software para la ingeniería agrícola; cambio climático y gestión de riesgos; y formación profesional.   Por un lado, debido al creciente cambio climático que afronta el mundo y, en especial, nuestro país, cuya geografía representa un inherente desafío a la labor del ingeniero agrícola, se tornan necesarias una continua reflexión y capacitación respecto al uso de nuevas tecnologías y métodos para continuar ejerciendo la labor como ingeniero y hacer frente al mencionado problema. Por otro lado, la coyuntura económica hace posible implementar diversas infraestructuras agrícolas que permitirán satisfacer las demandas de un crecimiento sostenido en cuanto a energía, abastecimiento de agua, comunicaciones, transporte, agricultura y otras áreas de la producción, y esto requiere el desarrollo de la investigación aplicada y el aprovechamiento de los beneficios que se derivan de ella.</p>
+<p>En un contexto de preocupación científica por el cambio climático, por la tecnología de la reutilización de las aguas, de la desalinización, por el uso de sistemas inteligentes de gestión, del manejo integrado del recurso hídrico a nivel de cuenca, de la gobernanza del agua y de un real interés por la participación de los usuarios en la gestión, es necesaria una intensa comunicación e intercambio de experiencias para posibilitar un camino más seguro y sostenible al desarrollo.</p>
+<p>Los esperamos en Octubre del 2017 para mostrarles la hospitalidad, cultura, tradición, historia y gastronomía de un Perú moderno y milenario.</p>
+<p><strong>Comité Organizador<br />
+        XIII Congreso Nacional de Ingeniería Agrícola<br/>CONIA 2017</strong></p>
+</div></div>
+    </section>
+   
+    <!-- Temario Section -->
+   <section id="portfolio" class="bg-light-gray" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -124,8 +132,9 @@
                         <img src="resources/img/portfolio/recursosHidricos.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
+              
                         <h4>Recursos Hídricos</h4>
-                        <p class="text-muted">El agua es esencial ...</p>
+                        <p class="text-muted">El agua es esencial ... <a  href="#portfolioModal1" data-toggle="modal">Ver más</a></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -139,7 +148,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Planificación, Gestión ...</h4>
-                        <p class="text-muted">Las construcciones ...</p>
+                        <p class="text-muted">Las construcciones ... <a  href="#portfolioModal2" data-toggle="modal">Ver más</a></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -153,7 +162,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Mecanización Agrícola y ...</h4>
-                        <p class="text-muted">Energía que utiliza los recursos ...</p>
+                        <p class="text-muted">Energía que utiliza los recur...<a  href="#portfolioModal3" data-toggle="modal">Ver más</a></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -167,7 +176,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Software para la Ingeniería Agrí...</h4>
-                        <p class="text-muted">Distintas TIC's aplicables ...</p>
+                        <p class="text-muted">Distintas TIC's aplicables ...<a  href="#portfolioModal4" data-toggle="modal">Ver más</a></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -181,7 +190,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Cambio Climático y ...</h4>
-                        <p class="text-muted">Glaciares, gestión de ...</p>
+                        <p class="text-muted">Glaciares, gestión de ... <a  href="#portfolioModal5" data-toggle="modal">Ver más</a></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -194,8 +203,8 @@
                         <img src="resources/img/portfolio/profesional.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Formación Profesional</h4>
-                        <p class="text-muted">Investigación, innovación ...</p>
+                        <h4 >Formación Profesional</h4>
+                        <p class="text-muted">Investigación, innovación ...<a  href="#portfolioModal6" data-toggle="modal">Ver más</a></p>
                     </div>
                 </div>
             </div>
@@ -296,108 +305,33 @@ investigación.</h3>
         </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
-    <!--
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Noticias</h2>
-                    <h3 class="section-subheading text-muted">Entérate de las últimas novedades del congreso.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="resources/img/portfolio/roundicons.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="resources/img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="resources/img/portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="resources/img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="resources/img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="resources/img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
--->
-    <!-- About Section -->
-    
-    <section id="about">
+    <!-- Programa Section -->
+    <script>
+function Todo() {
+    document.getElementById("BodyAgenda").innerHTML = "<tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">17</div> <div class=\"dayofweek\">Martes</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Mañana</div> </td> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 8:00 - 10:00 AM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-pushpin text-muted\" ></i> Inscripción Presencial </div> </td> </tr> <tr> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 10:00 - 11:00 AM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-calendar text-muted\" ></i> Inauguración del CONIA 2017 </div> </td> </tr> <tr> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 11:00 AM - 1:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-education text-muted\"></i> Conferencias </div> </td> </tr> <tr> <td class=\"agenda-date\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-triangle-right text-muted\" ></i> Break </div> </td> <td class=\"agenda-time\" > <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-transfer text-muted\" ></i> Break </div> </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-cutlery text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <tr> <td class=\"agenda-date\"> &nbsp <div><div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Tarde</div> </td> <td class=\"agenda-time\" > <i class=\"glyphicon glyphicon-time text-muted\" ></i> 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > <i class=\"glyphicon glyphicon-education text-muted\" ></i> Ponencias </div> <div class=\"agenda-event\"><i class=\"glyphicon glyphicon-education text-muted\" ></i> Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div><div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Noche</div> </td> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > <i class=\"glyphicon glyphicon-globe text-muted\" ></i> Noche Cultural </td> </tr> <!-- Miercoles 18--> <tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">18</div> <div class=\"dayofweek\">Miércoles</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-repeat text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr> <!-- Jueves 19--> <tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">19</div> <div class=\"dayofweek\">Jueves</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <!-- Single event in a single day --> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-repeat text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <!-- Multiple events in a single day (note the rowspan) --> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr> <!-- Viernes 20--> <tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">20</div> <div class=\"dayofweek\">Viernes</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <!-- Single event in a single day --> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> Almuerzo </div> </td> </tr> <!-- Multiple events in a single day (note the rowspan) --> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > Conclusiones del Congreso </div> <div class=\"agenda-event\" > Elección de sede del XIV CONIA - Clausura </div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr>  ";
+}
+</script>
+    <script>
+function Viernes() {
+    document.getElementById("BodyAgenda").innerHTML = "<tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">20</div> <div class=\"dayofweek\">Viernes</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <!-- Single event in a single day --> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> Almuerzo </div> </td> </tr> <!-- Multiple events in a single day (note the rowspan) --> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > Conclusiones del Congreso </div> <div class=\"agenda-event\" > Elección de sede del XIV CONIA - Clausura </div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr>  ";
+}
+</script>
+       <script>
+function Jueves() {
+    document.getElementById("BodyAgenda").innerHTML = "<tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">19</div> <div class=\"dayofweek\">Jueves</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <!-- Single event in a single day --> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-repeat text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <!-- Multiple events in a single day (note the rowspan) --> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr>  ";
+}
+</script>
+   <script>
+function Miercoles() {
+    document.getElementById("BodyAgenda").innerHTML = "<tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">18</div> <div class=\"dayofweek\">Miércoles</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-repeat text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr>  ";
+}
+</script>
+<script>
+function Martes() {
+    document.getElementById("BodyAgenda").innerHTML = "<tr><td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">17</div><div class=\"dayofweek\">Martes</div><div class=\"shortdate text-muted\">Octubre, 2017</div></td> <td class=\"agenda-date\" rowspan=\"3\">&nbsp<div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Mañana</div> </td> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 8:00 - 10:00 AM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-pushpin text-muted\" ></i>Inscripción Presencial</div></td> </tr> <tr> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 10:00 - 11:00 AM</td><td class=\"agenda-events\"><div class=\"agenda-event\"><i class=\"glyphicon glyphicon-calendar text-muted\" ></i> Inauguración del CONIA 2017 </div></td></tr> <tr> <td class=\"agenda-time\"><i class=\"glyphicon glyphicon-time text-muted\" ></i> 11:00 AM - 1:00 PM </td> <td class=\"agenda-events\"><div class=\"agenda-event\"><i class=\"glyphicon glyphicon-education text-muted\"></i> Conferencias </div> </td> </tr> <tr> <td class=\"agenda-date\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-triangle-right text-muted\" ></i> Break </div> </td> <td class=\"agenda-time\" > <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-transfer text-muted\" ></i> Break </div> </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-cutlery text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <tr> <td class=\"agenda-date\"> &nbsp <div><div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Tarde</div> </td> <td class=\"agenda-time\" > <i class=\"glyphicon glyphicon-time text-muted\" ></i> 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > <i class=\"glyphicon glyphicon-education text-muted\" ></i> Ponencias </div> <div class=\"agenda-event\"><i class=\"glyphicon glyphicon-education text-muted\" ></i> Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div><div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Noche</div> </td> <td class=&quotagenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > <i class=\"glyphicon glyphicon-globe text-muted\" ></i> Noche Cultural </td> </tr>   ";
+}
+</script>
+    <section id="programa" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -405,7 +339,357 @@ investigación.</h3>
                     <h3 class="section-subheading text-muted"> Congreso Nacional de Ingeniería Agrícola <br> Del 17 al 20 de octubre del 2017.</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="container">
+    <p class="lead">
+        ¡Esta es la agenda para el XIII Congreso Nacional de Ingeniería Agrícola!
+    </p>
+    
+
+    <div class="agenda">
+        <div class="table-responsive">
+            <button onclick="Todo()">Todo</button>
+           <button onclick="Viernes()">20 Viernes</button>
+          <button onclick="Jueves()">19 Jueves</button>
+          <button onclick="Miercoles()">18 Miércoles</button>
+          <button onclick="Martes()">17 Martes</button>
+            <table class="table table-condensed table-bordered">
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Turno</th>
+                        <th>Hora</th>
+                        <th>Evento</th>
+                    </tr>
+                </thead>
+                <tbody id="BodyAgenda">
+                    <!-- Martes 17 Octubre 2017-->
+                    <tr>
+                        <td class="agenda-date" rowspan="6">
+                            <div class="dayofmonth">17</div>
+                            <div class="dayofweek">Martes</div>
+                            <div class="shortdate text-muted">Octubre, 2017</div>
+                        </td>
+                        <td class="agenda-date"  rowspan="3">
+                            &nbsp
+                            <div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>Mañana</div>   
+                        </td>
+                         <td class="agenda-time">  
+                             <i class="glyphicon glyphicon-time text-muted" ></i> 
+                             8:00 - 10:00 AM 
+                         </td>
+                      <td class="agenda-events">
+                            <div class="agenda-event">
+                                 <i class="glyphicon glyphicon-pushpin text-muted" ></i> 
+                                Inscripción Presencial
+                            </div>
+                        </td>
+                    </tr>                    
+                    <tr>
+                      
+                        <td class="agenda-time">
+                            <i class="glyphicon glyphicon-time text-muted" ></i> 
+                            10:00 - 11:00 AM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-calendar text-muted" ></i> 
+                                Inauguración del CONIA 2017
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td class="agenda-time">
+                            <i class="glyphicon glyphicon-time text-muted" ></i> 
+                            11:00 AM - 1:00 PM
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-education text-muted"></i>
+                                Conferencias
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="agenda-date">
+                               <div class="agenda-event">
+                                <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Break
+                            </div>
+                        </td>
+                        <td class="agenda-time" >
+                           <div class="agenda-event">
+                                <i class="glyphicon glyphicon-transfer text-muted" ></i> 
+                                Break
+                            </div>
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-cutlery text-muted" title="Repeating event"></i> 
+                                Almuerzo
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="agenda-date">
+                            &nbsp
+                            <div><div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>Tarde</div>
+                        </td>
+                        <td class="agenda-time" >
+                           <i class="glyphicon glyphicon-time text-muted" ></i>  
+                           3:00 - 7:00 PM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event" >
+                             <i class="glyphicon glyphicon-education text-muted" ></i>  
+                             Ponencias 
+                            </div>
+                            <div class="agenda-event"><i class="glyphicon glyphicon-education text-muted" ></i>  
+                                Exposición de trabajos de conferencia</div>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td class="agenda-date" >
+                            &nbsp
+                            <div><div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>Noche</div>
+                        </td>
+                        <td class="agenda-time">
+                          <i class="glyphicon glyphicon-time text-muted" ></i>
+                          7:00 - 8:00 PM 
+                        </td>
+                        <td class="agenda-events" >
+                            <i class="glyphicon glyphicon-globe text-muted" ></i> 
+                            Noche Cultural
+                        </td>
+                    </tr> 
+                    <!-- Miercoles 18-->
+                    <tr>
+                        <td class="agenda-date" rowspan="6">
+                            <div class="dayofmonth">18</div>
+                            <div class="dayofweek">Miércoles</div>
+                            <div class="shortdate text-muted">Octubre, 2017</div>
+                        </td>
+                        <td class="agenda-date"  rowspan="3">
+                            &nbsp
+                            <div> Mañana</div>   
+                        </td>
+                        <td class="agenda-time" rowspan="3">     8:00 - 10:00 AM 
+                         </td>
+                         <td class="agenda-events" rowspan="3">
+                             <div class="agenda-event" >
+                                -Ponencias 
+                            </div>
+                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                        </td>
+                    </tr>                    
+                    <tr>
+                      
+                        
+                      
+                    </tr>
+                    <tr>
+                       
+                    </tr>
+                
+                    <tr>
+                        <td class="agenda-date">
+                            <div class="dayofmonth">&nbsp</div>
+                           
+                        </td>
+                        <td class="agenda-time" >
+                            &nbsp
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                Almuerzo
+                            </div>
+                        </td>
+                    </tr>
+                  
+                    <tr>
+                        <td class="agenda-date">
+                            &nbsp
+                            <div>Tarde</div>
+                        </td>
+                        <td class="agenda-time" >
+                            3:00 - 7:00 PM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event" >
+                                -Ponencias 
+                            </div>
+                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td class="agenda-date" >
+                            &nbsp
+                            <div>Noche</div>
+                        </td>
+                        <td class="agenda-time">
+                            7:00 - 8:00 PM 
+                        </td>
+                        <td class="agenda-events" >
+                            Noche Cultural
+                        </td>
+                    </tr> 
+                    <!-- Jueves 19-->
+                    <tr>
+                        <td class="agenda-date" rowspan="6">
+                            <div class="dayofmonth">19</div>
+                            <div class="dayofweek">Jueves</div>
+                            <div class="shortdate text-muted">Octubre, 2017</div>
+                        </td>
+                        <td class="agenda-date"  rowspan="3">
+                            &nbsp
+                            <div> Mañana</div>   
+                        </td>
+                        <td class="agenda-time" rowspan="3">     8:00 - 10:00 AM 
+                         </td>
+                         <td class="agenda-events" rowspan="3">
+                             <div class="agenda-event" >
+                                -Ponencias 
+                            </div>
+                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                        </td>
+                    </tr>                    
+                    <tr>
+                      
+                        
+                      
+                    </tr>
+                    <tr>
+                       
+                    </tr>
+                    <!-- Single event in a single day -->
+                    <tr>
+                        <td class="agenda-date">
+                            <div class="dayofmonth">&nbsp</div>
+                           
+                        </td>
+                        <td class="agenda-time" >
+                            &nbsp
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                Almuerzo
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- Multiple events in a single day (note the rowspan) -->
+                    <tr>
+                        <td class="agenda-date">
+                            &nbsp
+                            <div>Tarde</div>
+                        </td>
+                        <td class="agenda-time" >
+                            3:00 - 7:00 PM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event" >
+                                -Ponencias 
+                            </div>
+                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td class="agenda-date" >
+                            &nbsp
+                            <div>Noche</div>
+                        </td>
+                        <td class="agenda-time">
+                            7:00 - 8:00 PM 
+                        </td>
+                        <td class="agenda-events" >
+                            Noche Cultural
+                        </td>
+                    </tr> 
+                    <!-- Viernes 20-->
+                    <tr>
+                        <td class="agenda-date" rowspan="6">
+                            <div class="dayofmonth">20</div>
+                            <div class="dayofweek">Viernes</div>
+                            <div class="shortdate text-muted">Octubre, 2017</div>
+                        </td>
+                        <td class="agenda-date"  rowspan="3">
+                            &nbsp
+                            <div> Mañana</div>   
+                        </td>
+                        <td class="agenda-time" rowspan="3">     8:00 - 10:00 AM 
+                         </td>
+                         <td class="agenda-events" rowspan="3">
+                             <div class="agenda-event" >
+                                -Ponencias 
+                            </div>
+                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                        </td>
+                    </tr>                    
+                    <tr>
+                      
+                        
+                      
+                    </tr>
+                    <tr>
+                       
+                    </tr>
+                    <!-- Single event in a single day -->
+                    <tr>
+                        <td class="agenda-date">
+                            <div class="dayofmonth">&nbsp</div>
+                           
+                        </td>
+                        <td class="agenda-time" >
+                            &nbsp
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">                                 
+                                Almuerzo
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- Multiple events in a single day (note the rowspan) -->
+                    <tr>
+                        <td class="agenda-date">
+                            &nbsp
+                            <div>Tarde</div>
+                        </td>
+                        <td class="agenda-time" >
+                            3:00 - 7:00 PM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event" >
+                            Conclusiones del Congreso
+                            </div>
+                            <div class="agenda-event" >
+                            Elección de sede del XIV CONIA - Clausura 
+                            </div>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td class="agenda-date" >
+                            &nbsp
+                            <div>Noche</div>
+                        </td>
+                        <td class="agenda-time">
+                            7:00 - 8:00 PM 
+                        </td>
+                        <td class="agenda-events" >
+                            Noche Cultural
+                        </td>
+                    </tr> 
+                </tbody>
+            </table>
+            
+        </div>
+    </div>
+</div>
+    <!--        <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
                         <li>
@@ -474,7 +758,7 @@ investigación.</h3>
                     </ul>
                 </div>
             </div>
-        </div>
+        </div>-->
     </section>
 
     <!-- Team Section -->
@@ -586,7 +870,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                     <br>    &nbsp                
                 <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1130.7740596214257!2d-77.52628843362783!3d-9.516817387693132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-9.516404!2d-77.5262614!4m5!1s0x91a90d72ff290387%3A0xf366faa38220b74b!2sCiudad+Universitaria+-+Universidad+Nacional+Santiago+Antunez+de+Mayolo%2C+Huaraz!3m2!1d-9.517353!2d-77.5250379!5e1!3m2!1ses!2spe!4v1484236422116" width="560" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 <div class="col-sm-4">
-                    <div> <h3 class="f-w-900 m-b-md"> <a target="_blank" href="http://www.unasam.edu.pe/">UNIVERSIDAD NACIONAL SANTIAGO ANTUNEZ DE MAYOLO</a></h3>                  
+                    <div> <h3 class="f-w-900 m-b-md"> <a target="_blank" href="http://www.unasam.edu.pe/">UNIVERSIDAD NACIONAL SANTIAGO ANTÚNEZ DE MAYOLO</a></h3>                  
                      <p class="text-justify">
                      En 1899, el senador por Áncash José Santos Morán, en su cámara presenta el primer proyecto de creación de una universidad en Áncash. Ante el clamor del pueblo ancashino reunido en Huaraz el 14 de junio de 1976, el General Francisco Morales Bermúdez Cerruti, el Presidente de la República, prometió la creación de la Universidad de Ancash. En efecto, el 24 de mayo de 1977 se promulgó el Decreto Ley Nº 21856 que crea la Universidad Nacional de Ancash Santiago Antúnez de Mayolo. Un año después, en cumplimiento del Decreto Ley, un 10 de junio de 1977, se nombró la Comisión Organizadora, presidida por el Dr. César Carranza Saravia. Las actividades académicas se iniciaron el 22 de agosto de 1978 con 150 estudiantes.</p>                    
                     </div>
@@ -653,7 +937,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         </li>
                         <li><a target="_blank" href="https://www.facebook.com/CONIA2017"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a target="_blank" href="https://twitter.com/Conia2017"><i class="fa fa-linkedin"></i></a>
+                        <li><a target="_blank" href="https://twitter.com/Conia2017"><i class="fa fa-twitter"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -965,7 +1249,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
     <script src="resources/vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="resources/js/jquery.easing.min.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="resources/js/jqBootstrapValidation.js"></script>
