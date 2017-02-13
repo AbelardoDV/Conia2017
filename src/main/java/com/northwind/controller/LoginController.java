@@ -35,7 +35,7 @@ public class LoginController {
         }
     }
     
-    @RequestMapping(value = {"/*"}, method = RequestMethod.GET)
+    @RequestMapping(value = {"/"}, method = RequestMethod.GET)
     public String showIndex(HttpSession session) {
         EmployeeBean employeeBean = (EmployeeBean) session.getAttribute("employeeBean");
         if (employeeBean != null) {
@@ -48,7 +48,19 @@ public class LoginController {
             return "index";
         }
     }
-    
+    @RequestMapping(value = {"/google0a904e5f310a1be2.html"}, method = RequestMethod.GET)
+    public String ShowGoogle(HttpSession session) {
+        EmployeeBean employeeBean = (EmployeeBean) session.getAttribute("employeeBean");
+        if (employeeBean != null) {
+            if (employeeBean.getRole().equalsIgnoreCase("ADMINISTRATOR")) {
+                return "/google";
+            } else {
+                return "/google";
+            }
+        } else {
+            return "google";
+        }
+    }
     @RequestMapping(value = {"/home.do"}, method = RequestMethod.GET)
     public String home(Model model) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();

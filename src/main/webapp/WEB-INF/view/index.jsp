@@ -6,22 +6,22 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" hreflang="es">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Congreso Nacional de Ingenieria Agricola">
-    <meta name="keywords" content="Congreso, Conia, Nacional, Ingenieria, Agricola, 2017, Peru, Unasam, Huaraz, Ancash">
-    <meta name="author" content="CONIA"> 
-    <meta property="og:site_name" content="CONIA 2017" />
+    <meta name="description" content="Congreso Nacional de Ingenieria Agricola  2017 XIII CONIA celebrado en la ciudad de Huaraz Ancash Perú, del 17 al 20 de octubre del 2017, Evento que contará con conferencistas internacionales y que congregará a los mejores Ingenieros Agrícolas del Perú">
+    <meta name="keywords" content="Congreso, Agricola, Nacional, Ingenieria, CONIA , 2017,XIII">
+    <meta name="author" content="Congreso Nacional de Ingenieria Agricola 2017 CONIA XIII"> 
+    <meta property="og:site_name" content="Congreso Nacional de Ingenieria Agricola 2017 XIII CONIA" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://conia2017.com/" />
-    <meta property="og:title" content="CONIA 2017" />
-    <meta property="og:description" content="Congreso Nacional de Ingeniería Agrícola" />
-    <title> CONIA 2017 : XIII Congreso Nacional de Ingeniería Agrícola</title>
+    <meta property="og:title" content="Congreso Nacional de Ingenieria Agricola 2017 : XIII CONIA" />
+    <meta property="og:description" content="Congreso Nacional de Ingenieria Agricola XIII 2017 CONIA celebrado en la ciudad de Huaraz Ancash Perú, del 17 al 20 de octubre del 2017, Evento que contará con conferencistas internacionales y que congregará a los mejores Ingenieros Agrícolas del Perú" />
+    <title> Congreso Nacional de Ingeniería Agrícola 2017 : XIII CONIA </title>
     
     <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
@@ -175,7 +175,7 @@
                         <img src="resources/img/portfolio/software.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Software para la Ingeniería Agrí...</h4>
+                        <h4  > Software para la Ingeniería Agrí...</h4>
                         <p class="text-muted">Distintas TIC's aplicables ...<a  href="#portfolioModal4" data-toggle="modal">Ver más</a></p>
                     </div>
                 </div>
@@ -209,63 +209,8 @@
                 </div>
             </div>
         </div>
-    
-                <!-- 
-                    <h5>Recursos Hídricos</h5>
-                     <p>   -Hidrología Superficial y Subterránea <br>
-                        -Hidráulica<br>
-                        -Hidráulica Fluvial<br>
-                        -Riesgos y Drenaje<br>
-                        -Estructuras Hidráulicas<br>
-                        -Simulación Hidráulica<br>
-                        -Valor Económico del Agua<br>
-                        -Siembre y Cosecha del Agua<br>
-                    </p> 
-                    <h5>PLANIFICACIÓN, GESTIÓN TERRITORIAL Y CONSTRUCCIONES RURALES</h5>
-                    <p>-Construcciones Rurales<br>
-                        -Bioconstrucciones<br>
-                        -Construcciones Agropecuarias y Agroinsdustriales<br>
-                        -Viviendas Ecológicas<br>
-                        -Diseño Rural<br>
-                        -Zonificación Económica y Ecológica<br>
-                        -Planeamiento Urbano y Planeamiento Rural<br>
-                        -Plan de Desarrollo Social y Económico<br>
-                        -Manejo y Conservación del Agua <br>  
-                    </p>
-                    <h5>Mecanización Agrícola y Energía Renovable</h5>
-                    <p>-	-Maquinaria para la producción agrícola<br>
-                        -Maquinaria para la construcción<br>
-                        -Dimensionamiento de parque de maquinaria<br>
-                        -Administración y gestión de maquinaria agrícola<br>
-                        -Rendimiento económico de máquinas agrícolas<br>
-                        -Agricultura de precisión<br>
-                        -Tracción animal<br>
-                        -Técnicas para la mecanización agrícola<br>
-                        -Tendencias en conectividad en internet para máquinas agrícolas<br>
-                        -Uso y eficiencia de fuentes de energía renovables<br>
-        </p>
-            <h5>SOFTWARE PARA LA INGENIERÍA AGRÍCOLA</h5>
-                                <p>-Programas específicos para la ingeniería agrícola
-            </p>
-            <h5>CAMBIO CLIMÁTICO Y GESTIÓN DE RIESGOS</h5>
-            <p>-Glaciares<br>-Gestión de Riesgos
-            </p>
-            <h5>FORMACIÓN PROFESIONAL</h5>
-            <p>-Investigación, innovación y desarrollo<br>
-                -Macro y micro diseño curricular<br>
-                -Estudio de la demanda social y el mercado ocupacional<br>
-                -Perfil de ingreso y perfil de egreso<br>
-
-        </p>
-<p><strong>Comité Organizador<br />
-XIII Congreso Nacional de Ingeniería Agrícola</strong></p>
-
-            </div> -->
-            
     </section>
-    <!-- HOLA -->
-    
-   
+    <!-- Conferencias -->
     <section id="conferencias" >
         <div class="container">
             <div class="row">
@@ -306,31 +251,7 @@ investigación.</h3>
     </section>
 
     <!-- Programa Section -->
-    <script>
-function Todo() {
-    document.getElementById("BodyAgenda").innerHTML = "<tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">17</div> <div class=\"dayofweek\">Martes</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Mañana</div> </td> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 8:00 - 10:00 AM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-pushpin text-muted\" ></i> Inscripción Presencial </div> </td> </tr> <tr> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 10:00 - 11:00 AM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-calendar text-muted\" ></i> Inauguración del CONIA 2017 </div> </td> </tr> <tr> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 11:00 AM - 1:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-education text-muted\"></i> Conferencias </div> </td> </tr> <tr> <td class=\"agenda-date\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-triangle-right text-muted\" ></i> Break </div> </td> <td class=\"agenda-time\" > <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-transfer text-muted\" ></i> Break </div> </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-cutlery text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <tr> <td class=\"agenda-date\"> &nbsp <div><div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Tarde</div> </td> <td class=\"agenda-time\" > <i class=\"glyphicon glyphicon-time text-muted\" ></i> 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > <i class=\"glyphicon glyphicon-education text-muted\" ></i> Ponencias </div> <div class=\"agenda-event\"><i class=\"glyphicon glyphicon-education text-muted\" ></i> Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div><div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Noche</div> </td> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > <i class=\"glyphicon glyphicon-globe text-muted\" ></i> Noche Cultural </td> </tr> <!-- Miercoles 18--> <tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">18</div> <div class=\"dayofweek\">Miércoles</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-repeat text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr> <!-- Jueves 19--> <tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">19</div> <div class=\"dayofweek\">Jueves</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <!-- Single event in a single day --> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-repeat text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <!-- Multiple events in a single day (note the rowspan) --> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr> <!-- Viernes 20--> <tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">20</div> <div class=\"dayofweek\">Viernes</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <!-- Single event in a single day --> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> Almuerzo </div> </td> </tr> <!-- Multiple events in a single day (note the rowspan) --> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > Conclusiones del Congreso </div> <div class=\"agenda-event\" > Elección de sede del XIV CONIA - Clausura </div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr>  ";
-}
-</script>
-    <script>
-function Viernes() {
-    document.getElementById("BodyAgenda").innerHTML = "<tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">20</div> <div class=\"dayofweek\">Viernes</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <!-- Single event in a single day --> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> Almuerzo </div> </td> </tr> <!-- Multiple events in a single day (note the rowspan) --> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > Conclusiones del Congreso </div> <div class=\"agenda-event\" > Elección de sede del XIV CONIA - Clausura </div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr>  ";
-}
-</script>
-       <script>
-function Jueves() {
-    document.getElementById("BodyAgenda").innerHTML = "<tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">19</div> <div class=\"dayofweek\">Jueves</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <!-- Single event in a single day --> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-repeat text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <!-- Multiple events in a single day (note the rowspan) --> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr>  ";
-}
-</script>
-   <script>
-function Miercoles() {
-    document.getElementById("BodyAgenda").innerHTML = "<tr> <td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">18</div> <div class=\"dayofweek\">Miércoles</div> <div class=\"shortdate text-muted\">Octubre, 2017</div> </td> <td class=\"agenda-date\" rowspan=\"3\"> &nbsp <div> Mañana</div> </td> <td class=\"agenda-time\" rowspan=\"3\"> 8:00 - 10:00 AM </td> <td class=\"agenda-events\" rowspan=\"3\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> </tr> <tr> </tr> <tr> <td class=\"agenda-date\"> <div class=\"dayofmonth\">&nbsp</div> </td> <td class=\"agenda-time\" > &nbsp </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-repeat text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <tr> <td class=\"agenda-date\"> &nbsp <div>Tarde</div> </td> <td class=\"agenda-time\" > 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > -Ponencias </div> <div class=\"agenda-event\">-Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div>Noche</div> </td> <td class=\"agenda-time\"> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > Noche Cultural </td> </tr>  ";
-}
-</script>
-<script>
-function Martes() {
-    document.getElementById("BodyAgenda").innerHTML = "<tr><td class=\"agenda-date\" rowspan=\"6\"> <div class=\"dayofmonth\">17</div><div class=\"dayofweek\">Martes</div><div class=\"shortdate text-muted\">Octubre, 2017</div></td> <td class=\"agenda-date\" rowspan=\"3\">&nbsp<div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Mañana</div> </td> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 8:00 - 10:00 AM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-pushpin text-muted\" ></i>Inscripción Presencial</div></td> </tr> <tr> <td class=\"agenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 10:00 - 11:00 AM</td><td class=\"agenda-events\"><div class=\"agenda-event\"><i class=\"glyphicon glyphicon-calendar text-muted\" ></i> Inauguración del CONIA 2017 </div></td></tr> <tr> <td class=\"agenda-time\"><i class=\"glyphicon glyphicon-time text-muted\" ></i> 11:00 AM - 1:00 PM </td> <td class=\"agenda-events\"><div class=\"agenda-event\"><i class=\"glyphicon glyphicon-education text-muted\"></i> Conferencias </div> </td> </tr> <tr> <td class=\"agenda-date\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-triangle-right text-muted\" ></i> Break </div> </td> <td class=\"agenda-time\" > <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-transfer text-muted\" ></i> Break </div> </td> <td class=\"agenda-events\"> <div class=\"agenda-event\"> <i class=\"glyphicon glyphicon-cutlery text-muted\" title=\"Repeating event\"></i> Almuerzo </div> </td> </tr> <tr> <td class=\"agenda-date\"> &nbsp <div><div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Tarde</div> </td> <td class=\"agenda-time\" > <i class=\"glyphicon glyphicon-time text-muted\" ></i> 3:00 - 7:00 PM </td> <td class=\"agenda-events\"> <div class=\"agenda-event\" > <i class=\"glyphicon glyphicon-education text-muted\" ></i> Ponencias </div> <div class=\"agenda-event\"><i class=\"glyphicon glyphicon-education text-muted\" ></i> Exposición de trabajos de conferencia</div> </td> </tr> <tr> <td class=\"agenda-date\" > &nbsp <div><div> <i class=\"glyphicon glyphicon-triangle-right text-muted\"></i>Noche</div> </td> <td class=&quotagenda-time\"> <i class=\"glyphicon glyphicon-time text-muted\" ></i> 7:00 - 8:00 PM </td> <td class=\"agenda-events\" > <i class=\"glyphicon glyphicon-globe text-muted\" ></i> Noche Cultural </td> </tr>   ";
-}
-</script>
+
     <section id="programa" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -343,15 +264,42 @@ function Martes() {
     <p class="lead">
         ¡Esta es la agenda para el XIII Congreso Nacional de Ingeniería Agrícola!
     </p>
-    
+    <div>
+    <p>
+        Seleccione una opción:
+    </p>
+    </div>
+    <div class="btn-group" data-toggle="buttons">
+       
+ <button onclick="Todo()" type="radio" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" >
+  Completo
+</button>
+        
+        <button onclick="Lunes()" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" >
+  Lunes 16
+</button>
+        <button onclick="Martes()"type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Martes 17
+</button>
+        <button onclick="Miercoles()"type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Miércoles 18
+</button>
+        <button onclick="Jueves()"type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Jueves 19
+</button>
+        <button onclick="Viernes()"type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Viernes 20
+</button>
+        <button onclick="Sabado()"type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Sábado 21
+</button>
+</div>
+    <div>
+         &nbsp
+</div>
 
-    <div class="agenda">
-        <div class="table-responsive">
-            <button onclick="Todo()">Todo</button>
-           <button onclick="Viernes()">20 Viernes</button>
-          <button onclick="Jueves()">19 Jueves</button>
-          <button onclick="Miercoles()">18 Miércoles</button>
-          <button onclick="Martes()">17 Martes</button>
+    <div class="agenda">        
+
             <table class="table table-condensed table-bordered">
                 <thead>
                     <tr>
@@ -362,9 +310,34 @@ function Martes() {
                     </tr>
                 </thead>
                 <tbody id="BodyAgenda">
+                    <!-- 16 Lunes-->
+                    <tr>
+                        <td>
+                            <i class="glyphicon glyphicon-calendar text-muted" ></i> 
+                            <div class="dayofmonth">16</div>
+                            <div class="dayofweek">Lunes</div>
+                            <div class="shortdate text-muted">Octubre, 2017</div> 
+                        </td>
+                        <td class="agenda-date" >                            
+                            <div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>Mañana</div>   
+                            <div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>Tarde</div> 
+                            <div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>Noche</div> 
+                        </td>
+                        <td>
+                             &nbsp
+                            <div> <i class="glyphicon glyphicon-time text-muted"></i>Por definir</div>  
+                        </td>
+                        <td>
+                             &nbsp
+                            <div> <i class="glyphicon glyphicon-education text-muted"></i>Curso Pre-Congreso</div>  
+                        </td>
+                    </tr>
+                    <!-- Separacion--->
+                    <tr><td></td><td></td><td></td><td></td></tr>
                     <!-- Martes 17 Octubre 2017-->
                     <tr>
                         <td class="agenda-date" rowspan="6">
+                            <i class="glyphicon glyphicon-calendar text-muted" ></i> 
                             <div class="dayofmonth">17</div>
                             <div class="dayofweek">Martes</div>
                             <div class="shortdate text-muted">Octubre, 2017</div>
@@ -434,8 +407,9 @@ function Martes() {
                     
                     <tr>
                         <td class="agenda-date">
-                            &nbsp
-                            <div><div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>Tarde</div>
+                            
+                            <div><div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>
+                                    Tarde</div>
                         </td>
                         <td class="agenda-time" >
                            <i class="glyphicon glyphicon-time text-muted" ></i>  
@@ -452,7 +426,7 @@ function Martes() {
                     </tr> 
                     <tr>
                         <td class="agenda-date" >
-                            &nbsp
+                            
                             <div><div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>Noche</div>
                         </td>
                         <td class="agenda-time">
@@ -464,24 +438,33 @@ function Martes() {
                             Noche Cultural
                         </td>
                     </tr> 
+                    <!-- Separacion--->
+                    <tr><td></td><td></td><td></td><td></td></tr>
                     <!-- Miercoles 18-->
                     <tr>
                         <td class="agenda-date" rowspan="6">
+                            <i class="glyphicon glyphicon-calendar text-muted" ></i> 
                             <div class="dayofmonth">18</div>
                             <div class="dayofweek">Miércoles</div>
                             <div class="shortdate text-muted">Octubre, 2017</div>
                         </td>
                         <td class="agenda-date"  rowspan="3">
-                            &nbsp
-                            <div> Mañana</div>   
+                           
+                            <div> <i class="glyphicon glyphicon-triangle-right text-muted"></i>
+                           Mañana 
                         </td>
-                        <td class="agenda-time" rowspan="3">     8:00 - 10:00 AM 
+                        <td class="agenda-time" rowspan="3">    
+                            <i class="glyphicon glyphicon-time text-muted" ></i> 
+                            8:00 - 10:00 AM 
                          </td>
                          <td class="agenda-events" rowspan="3">
-                             <div class="agenda-event" >
-                                -Ponencias 
+                             <div class="agenda-event"  >
+                               <i class="glyphicon glyphicon-education text-muted" ></i> 
+                                 Ponencias 
                             </div>
-                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-education text-muted" ></i> 
+                                Exposición de trabajos de conferencia</div>
                         </td>
                     </tr>                    
                     <tr>
@@ -495,15 +478,20 @@ function Martes() {
                 
                     <tr>
                         <td class="agenda-date">
-                            <div class="dayofmonth">&nbsp</div>
-                           
+                           <div class="agenda-event">
+                                <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Break
+                            </div>
                         </td>
                         <td class="agenda-time" >
-                            &nbsp
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-transfer text-muted" ></i> 
+                                Break
+                            </div>
                         </td>
                         <td class="agenda-events">
                             <div class="agenda-event">
-                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                <i class="glyphicon glyphicon-cutlery text-muted"></i> 
                                 Almuerzo
                             </div>
                         </td>
@@ -511,49 +499,63 @@ function Martes() {
                   
                     <tr>
                         <td class="agenda-date">
-                            &nbsp
-                            <div>Tarde</div>
+                            <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Tarde
                         </td>
                         <td class="agenda-time" >
+                         <i class="glyphicon glyphicon-time text-muted" ></i> 
                             3:00 - 7:00 PM 
                         </td>
                         <td class="agenda-events">
                             <div class="agenda-event" >
-                                -Ponencias 
+                                <i class="glyphicon glyphicon-education text-muted" ></i> 
+                                Ponencias 
                             </div>
-                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-education text-muted" ></i> 
+                                Exposición de trabajos de conferencia</div>
                         </td>
                     </tr> 
                     <tr>
                         <td class="agenda-date" >
-                            &nbsp
-                            <div>Noche</div>
+                           <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Noche
                         </td>
                         <td class="agenda-time">
+                            <i class="glyphicon glyphicon-time text-muted" ></i> 
                             7:00 - 8:00 PM 
                         </td>
                         <td class="agenda-events" >
+                            <i class="glyphicon glyphicon-globe text-muted" ></i> 
                             Noche Cultural
                         </td>
                     </tr> 
+                    <!-- Separacion--->
+                    <tr><td></td><td></td><td></td><td></td></tr>
                     <!-- Jueves 19-->
                     <tr>
                         <td class="agenda-date" rowspan="6">
+                            <i class="glyphicon glyphicon-calendar text-muted" ></i> 
                             <div class="dayofmonth">19</div>
                             <div class="dayofweek">Jueves</div>
                             <div class="shortdate text-muted">Octubre, 2017</div>
                         </td>
                         <td class="agenda-date"  rowspan="3">
-                            &nbsp
-                            <div> Mañana</div>   
+                            <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Mañana
                         </td>
-                        <td class="agenda-time" rowspan="3">     8:00 - 10:00 AM 
+                        <td class="agenda-time" rowspan="3">  
+                            <i class="glyphicon glyphicon-time text-muted" ></i> 
+                            8:00 - 10:00 AM 
                          </td>
                          <td class="agenda-events" rowspan="3">
                              <div class="agenda-event" >
-                                -Ponencias 
+                                <i class="glyphicon glyphicon-education text-muted" ></i> 
+                                Ponencias 
                             </div>
-                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-education text-muted" ></i> 
+                                Exposición de trabajos de conferencia</div>
                         </td>
                     </tr>                    
                     <tr>
@@ -567,15 +569,20 @@ function Martes() {
                     <!-- Single event in a single day -->
                     <tr>
                         <td class="agenda-date">
-                            <div class="dayofmonth">&nbsp</div>
-                           
+                           <div class="agenda-event">
+                                <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Break
+                            </div>
                         </td>
                         <td class="agenda-time" >
-                            &nbsp
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-transfer text-muted" ></i> 
+                                Break
+                            </div>
                         </td>
                         <td class="agenda-events">
                             <div class="agenda-event">
-                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                <i class="glyphicon glyphicon-cutlery text-muted"></i> 
                                 Almuerzo
                             </div>
                         </td>
@@ -584,49 +591,63 @@ function Martes() {
                     <!-- Multiple events in a single day (note the rowspan) -->
                     <tr>
                         <td class="agenda-date">
-                            &nbsp
-                            <div>Tarde</div>
+                            <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Tarde
                         </td>
                         <td class="agenda-time" >
+                           <i class="glyphicon glyphicon-time text-muted" ></i> 
                             3:00 - 7:00 PM 
                         </td>
                         <td class="agenda-events">
                             <div class="agenda-event" >
-                                -Ponencias 
+                                <i class="glyphicon glyphicon-education text-muted" ></i> 
+                                Ponencias 
                             </div>
-                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-education text-muted" ></i> 
+                                Exposición de trabajos de conferencia</div>
                         </td>
                     </tr> 
                     <tr>
                         <td class="agenda-date" >
-                            &nbsp
-                            <div>Noche</div>
+                           <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Noche
                         </td>
                         <td class="agenda-time">
+                          <i class="glyphicon glyphicon-time text-muted" ></i> 
                             7:00 - 8:00 PM 
                         </td>
                         <td class="agenda-events" >
+                           <i class="glyphicon glyphicon-globe text-muted" ></i> 
                             Noche Cultural
                         </td>
                     </tr> 
+                    <!-- Separacion--->
+                    <tr><td></td><td></td><td></td><td></td></tr>
                     <!-- Viernes 20-->
                     <tr>
                         <td class="agenda-date" rowspan="6">
+                            <i class="glyphicon glyphicon-calendar text-muted" ></i> 
                             <div class="dayofmonth">20</div>
                             <div class="dayofweek">Viernes</div>
                             <div class="shortdate text-muted">Octubre, 2017</div>
                         </td>
                         <td class="agenda-date"  rowspan="3">
-                            &nbsp
-                            <div> Mañana</div>   
+                            <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Mañana 
                         </td>
-                        <td class="agenda-time" rowspan="3">     8:00 - 10:00 AM 
+                        <td class="agenda-time" rowspan="3">    
+                            <i class="glyphicon glyphicon-time text-muted" ></i> 
+                            8:00 - 10:00 AM 
                          </td>
                          <td class="agenda-events" rowspan="3">
                              <div class="agenda-event" >
-                                -Ponencias 
+                               <i class="glyphicon glyphicon-education text-muted" ></i> 
+                               Ponencias 
                             </div>
-                            <div class="agenda-event">-Exposición de trabajos de conferencia</div>
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-education text-muted" ></i> 
+                                Exposición de trabajos de conferencia</div>
                         </td>
                     </tr>                    
                     <tr>
@@ -640,14 +661,21 @@ function Martes() {
                     <!-- Single event in a single day -->
                     <tr>
                         <td class="agenda-date">
-                            <div class="dayofmonth">&nbsp</div>
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Break
+                            </div>
                            
                         </td>
                         <td class="agenda-time" >
-                            &nbsp
+                           <div class="agenda-event">
+                                <i class="glyphicon glyphicon-transfer text-muted" ></i> 
+                                Break
+                            </div>
                         </td>
                         <td class="agenda-events">
-                            <div class="agenda-event">                                 
+                            <div class="agenda-event">  
+                                <i class="glyphicon glyphicon-cutlery text-muted"></i>   
                                 Almuerzo
                             </div>
                         </td>
@@ -656,204 +684,79 @@ function Martes() {
                     <!-- Multiple events in a single day (note the rowspan) -->
                     <tr>
                         <td class="agenda-date">
-                            &nbsp
-                            <div>Tarde</div>
+                            <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Tarde
                         </td>
                         <td class="agenda-time" >
+                           <i class="glyphicon glyphicon-time text-muted" ></i> 
                             3:00 - 7:00 PM 
                         </td>
                         <td class="agenda-events">
                             <div class="agenda-event" >
+                                <i class="glyphicon glyphicon-pushpin text-muted" ></i> 
                             Conclusiones del Congreso
                             </div>
                             <div class="agenda-event" >
+                                <i class="glyphicon glyphicon-pushpin text-muted" ></i> 
                             Elección de sede del XIV CONIA - Clausura 
                             </div>
                         </td>
                     </tr> 
                     <tr>
                         <td class="agenda-date" >
-                            &nbsp
-                            <div>Noche</div>
+                            <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Noche
                         </td>
                         <td class="agenda-time">
+                           <i class="glyphicon glyphicon-time text-muted" ></i> 
                             7:00 - 8:00 PM 
                         </td>
                         <td class="agenda-events" >
+                            <i class="glyphicon glyphicon-globe text-muted" ></i> 
                             Noche Cultural
                         </td>
                     </tr> 
+                    <!-- Separacion--->
+                    <tr><td></td><td></td><td></td><td></td></tr>
+                    <!--Visita Turística 21 Sábado-->
+                    <tr>
+                        <td>
+                        <i class="glyphicon glyphicon-calendar text-muted" ></i> 
+                            <div class="dayofmonth">21</div>
+                            <div class="dayofweek">Sábado</div>
+                            <div class="shortdate text-muted">Octubre, 2017</div>
+                            </td>
+                            <td>
+                                <div> <i class="glyphicon glyphicon-triangle-right text-muted" ></i>
+                                Mañana  </div>
+                                <div>    <i class="glyphicon glyphicon-triangle-right text-muted" ></i> 
+                                Tarde </div>
+                                <div>    <i class="glyphicon glyphicon-triangle-right text-muted" ></i>
+                                Noche  </div>
+                                
+                            </td>
+                            <td>
+                                &nbsp
+                                 <div>    <i class="glyphicon glyphicon-time text-muted" ></i>
+                                Por Definir  </div>
+                                
+                            </td>
+                            <td>
+                                 &nbsp
+                                 <div>    <i class="glyphicon glyphicon-globe text-muted" ></i>
+                                Visita Turística  </div>
+                            </td>
+                    </tr>
+                    
                 </tbody>
             </table>
             
         </div>
     </div>
 </div>
-    <!--        <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="resources/img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>En Construcción</h4>
-                                    <h4 class="subheading">En Construcción</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">En Construcción!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="resources/img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>En Construcción</h4>
-                                    <h4 class="subheading">En Construcción</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">En Construcción!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="resources/img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>En Construcción</h4>
-                                    <h4 class="subheading">En Construcción</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">En Construcción!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="resources/img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>En Construcción</h4>
-                                    <h4 class="subheading">En Construcción</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">En Construcción!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>En Construcción
-                                    <br>En Construcción
-                                    <br>En Construcción!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>-->
+   
     </section>
 
-    <!-- Team Section -->
-    <!--
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Conoce Ancash</h2>
-                    <h3 class="section-subheading text-muted">Los esperamos con la amabilidad que nos caracteriza para que su visita sea inolvidable...</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="resources/img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Chavín de Huantar</h4>
-                        <p class="text-muted">En construcción</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="resources/img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>En construcción</h4>
-                        <p class="text-muted">En Construcción</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="resources/img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>En construcción</h4>
-                        <p class="text-muted">En construcción</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">En construcción.</p>
-                </div>
-            </div>
-        </div>
-    </section>
--->
-    <!-- Clients Aside -->
-    <!--
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="resources/img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="resources/img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="resources/img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="resources/img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside> -->
         <!-- Ubicacion Section -->
      <section id="ubicacion">
         <div class="container">
@@ -878,52 +781,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
                         </div>
                      </div>
              </section>
-    <!-- Contact Section -->
     
-    <!--
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contáctenos</h2>
-                    <h3 class="section-subheading text-muted">En construcción.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Su Nombre *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Su Correo *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Su telefono *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Su mensaje *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Enviar Mensaje</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>-->
 
     <footer>
         <div class="container">
@@ -1266,6 +1124,7 @@ Escuela Profesional de Ingeniería Agrícola - UNASAM, Ciudad Universitaria</h3>
     });   
   
 </script>
+<script src="resources/js/agenda.js"></script>
     
 </body>
 
